@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["es2022"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["node"],
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "paths": {
+      "@workspace/api-zod": ["./api-zod/index.ts"]
+    }
+  },
+  "include": ["src", "api-zod"]
+}
